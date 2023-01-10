@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "csv-parse": "^5.3.3",
+    "mongodb": "^4.12.1",
+    "node-product-catalog-feed": "^1.0.0"
+  }
+}
