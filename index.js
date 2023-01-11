@@ -36,7 +36,7 @@ var eanList = []
     11 g:color -> color
 */
 var readEansWithCategory = async (file) => {
-    await fs.createReadStream("./"+file)
+    await fs.createReadStream(file)
     .pipe(parse({ delimiter: ";", from_line: 2 }))
     .on("data", async function (row) {
         eanList.push({ 
