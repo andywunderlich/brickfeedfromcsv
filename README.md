@@ -3,6 +3,8 @@
 ```
 git clone brickfeedfromcsv
 
+cd brickfeedfromcsv
+
 npm install 
 
 node index.js -f filename.csv
