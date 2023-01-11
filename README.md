@@ -1,5 +1,7 @@
 # Generate Brickscout Feed XML for Google from csv
 
+node 16.14.2
+
 ```
 git clone brickfeedfromcsv
 
